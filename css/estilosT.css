@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color:white
+}
+
+hr{
+  border: none;
+  height: 2px;
+  background-color: indianred
+}
+
+header {
+  background-color: indianred;
+  padding: 10px 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-horizontal {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-horizontal > li > a {
+  display: block;
+  padding: 15px 20px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: indianred;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+#inicio {
+  position: relative;
+  text-align: center;
+}
+
+#servicios video {
+  width: 100%;
+  height: auto;
+}
+
+#inicio img {
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+#inicio h2 {
+  text-align: center;
+  color: #CD6155;
+  font-weight: bold 
+}
+
+#productos img {
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+h1{
+  font-family: font-family: georgia,"Times New Roman";
+  color: indianred; font-size: 30px;
+  font-weight: bold
+}
+h3{ 
+  "Times New Roman",Times,serif;
+  color: black; font-size:23px
+}
+
+p{
+  font-size: 17px;
+}
+
+#contacto p { 
+  font-weight: lighter
+}
